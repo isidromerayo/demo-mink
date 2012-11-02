@@ -25,7 +25,9 @@ class FeatureContext extends MinkContext
      */
     public function iWaitForTheSuggestionBoxToAppear()
     {
-        throw new PendingException();
+        $this->getSession()->wait(5000,
+            "$('.suggestions-results').children().length > 0"
+        );
     }
 
 }
