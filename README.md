@@ -1,10 +1,14 @@
 Demo Mink
 =========
 
-Install
--------
+http://mink.behat.org/
 
-$ composer.phar install
+Install (composer install is required)
+--------------------------------------
+
+http://getcomposer.org/doc/00-intro.md#locally
+
+$ composer(.phar) install
 
 Use
 ---
